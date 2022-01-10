@@ -1,0 +1,21 @@
+<h2 class="text-3xl">Nouveau message :</h2>
+
+<div class="container">
+<form class="form-control" [formGroup]="angularForm">
+  <div class="container p-2">
+    <label for="pseudo">De :</label>
+    <input class="text-black" type="text" id="pseudo"
+    formControlName="pseudo">
+  </div>
+
+    <label for="message">Message :</label>
+  <input class="text-black" type="text" id="message"
+  formControlName="message">
+
+<div class="btn-group p-2">
+
+  <input class="btn btn-primary" type="submit" value="Envoyer" (click)="envoyer()">
+  <input class="btn btn-secondary" type="submit" value="Annuler">
+</div>
+</form>
+</div>

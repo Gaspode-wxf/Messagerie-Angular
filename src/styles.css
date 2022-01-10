@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+body{
+  width: 90%;
+}
+
+h1 {
+  font-size: 50pt;
+  text-align: center;
+  border-style: double;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aliceblue;
+  border-style: double;
+}
+
+.messages{
+  display: flex;
+  flex-flow: column;
+  border-style: double;
+  width: 70%;
+}
+
+.activePeople{
+  border-style: double;
+  width: 30%;
+}
+
+.histoMess{
+  border-bottom-style: groove;
+  text-align: center;
+}
+
+.newMess{
+  text-align: center;
+}
+*/

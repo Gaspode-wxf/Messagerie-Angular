@@ -1,0 +1,8 @@
+<h2 class="text-3xl underline">Personnes actives :</h2>
+
+<div class="container mx-auto" *ngIf="histoMessages&&histoMessages.length>0">
+  <ul class="list-disc p-10">
+    <li *ngFor="let mess of histoMessages">{{mess.pseudo}}</li>
+  </ul>
+</div>
+

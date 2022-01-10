@@ -1,0 +1,8 @@
+<h2 class="text-3xl">Les derniers Messages</h2>
+
+<div class="container" *ngIf="histoMessages&&histoMessages.length>0">
+  <div class="container p-2" *ngFor="let mess of histoMessages">
+    <p class="text-2xs">{{mess.pseudo}} a écrit le {{mess.datePost | date: 'EEEE dd MMMM yyyy'}}</p>
+    <p class="bg-amber-50 text-black">{{mess.message}}</p>
+  </div>
+</div>
